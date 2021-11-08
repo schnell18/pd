@@ -88,7 +88,7 @@ dev: build check tools test
 
 ci: build check basic-test
 
-build: pd-server pd-ctl pd-recover
+build: pd-server-basic pd-ctl pd-recover
 
 tools: pd-tso-bench pd-analysis pd-heartbeat-bench
 
